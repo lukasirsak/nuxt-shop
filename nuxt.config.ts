@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-headlessui',
+  ],
   devtools: { enabled: true },
+  headlessui: {
+      prefix: 'Headless'
+  }
 })
