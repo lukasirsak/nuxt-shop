@@ -9,9 +9,9 @@
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
-                                <NuxtLink to="/" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</NuxtLink>
-                                <NuxtLink to="/products" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Products</NuxtLink>
-                                <NuxtLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</NuxtLink>
+                                <NavLink to="/">Dashboard</NavLink>
+                                <NavLink to="/products">Products</NavLink>
+                                <NavLink to="/contact">Contact</NavLink>
                             </div>
                         </div>
                     </div>
