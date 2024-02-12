@@ -7,5 +7,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   headlessui: {
       prefix: 'Headless'
+  },
+  typescript: {
+    typeCheck: true
   }
 })
